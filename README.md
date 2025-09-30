@@ -1,22 +1,10 @@
-# Global Climate Events and Economic Impact
+Global Climate Events and Economic Impact (2020–2024)
 
-This project analyzes global climate events and their economic impact using data from Kaggle.  
-The main notebook cleans, explores, and visualizes the dataset.  
+This project analyzes global climate events from 2020 to 2024 and investigates their economic impacts. The goal is to provide insights into how extreme climate events such as floods, storms, wildfires, and droughts affect economic outcomes across different regions. The dataset used is included in the `data` folder as `global_climate_events.csv` and comes from Kaggle (https://www.kaggle.com/datasets). The dataset contains columns for `Date` of the event, `Event_Type` (flood, storm, wildfire, drought, etc.), `Location` (country or region), `Economic_Impact_USD` (estimated economic damage in USD), `Fatalities` (number of reported deaths), and `Affected_Population` (number of people affected).
 
----
+To run this project locally, clone the repository using `git clone https://github.com/Tina19961211/Global-Climate-Events-and-Economic-Impact.git` and navigate to the folder. You can optionally create a virtual environment and install dependencies using `pip install -r requirements.txt`. Open the Jupyter notebook `global-climate-events-and-economic-impact.ipynb` to run the analysis, which includes loading and inspecting the dataset, data cleaning and preprocessing, exploratory data analysis with descriptive statistics and visualizations, and an analysis of the economic impact of climate events.
 
-## 📂 Project Structure
-- `global-climate-events-and-economic-impact.ipynb` → Main analysis notebook  
-- `requirements.txt` → List of Python packages needed  
-- `README.md` → You are here  
-- `data/` → Folder where you put your dataset (not uploaded to GitHub if large)  
+The analysis identifies trends in climate events, regional differences in economic impact, correlations between severity and economic losses, and patterns over time to inform policy and planning. Results show that floods and storms caused the highest total economic damage globally during 2020–2024, certain regions such as Southeast Asia and the Caribbean were particularly vulnerable, there is an upward trend in climate-related economic losses, and economic impact is closely correlated with the severity and frequency of events. Visualizations in the notebook provide charts and graphs to clearly communicate these findings.
 
----
-
-## 🚀 How to Run
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Tina19961211/Global-Climate-Events-and-Economic-Impact.git
-   cd Global-Climate-Events-and-Economic-Impact
+Contributions are welcome. To contribute, fork the repository, create a new branch with `git checkout -b feature-name`, make your changes, commit with `git commit -m "Add new feature or fix"`, push with `git push origin feature-name`, and open a pull request for review. This project is licensed under the MIT License. Acknowledgements go to Kaggle for providing the dataset, the data science and climate research communities for guidance, and open-source Python libraries including pandas, matplotlib, seaborn, and numpy for data analysis and visualization.
 
