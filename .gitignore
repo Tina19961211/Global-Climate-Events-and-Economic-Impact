@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# Environments
+.env
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (do not commit large datasets)
+data/
+outputs/
+
+# VSCode
+.vscode/
+
